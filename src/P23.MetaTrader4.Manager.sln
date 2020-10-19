@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "P23.MetaTrader4.Manager.ClrWrapper", "P23.MetaTrader4.Manager.ClrWrapper\P23.MetaTrader4.Manager.ClrWrapper.vcxproj", "{4FB30E8D-10BB-46BA-9AFE-DF840256ED03}"
 EndProject
@@ -14,26 +14,69 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{1530
 		Scripts\versionUpdater.ps1 = Scripts\versionUpdater.ps1
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "P23.MetaTrader4.Manager.ClrWrapper.Core", "P23.MetaTrader4.Manager.ClrWrapper.Core\P23.MetaTrader4.Manager.ClrWrapper.Core.vcxproj", "{BB86CBE6-3CF1-4462-8370-6899C4B9909D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P23.MetaTrader4.Manager.Contracts.Core", "P23.MetaTrader4.Manager.Contracts.Core\P23.MetaTrader4.Manager.Contracts.Core.csproj", "{0440845F-A6FB-4E0C-8783-F28942F2F924}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P23.MetaTrader4.Manager.Core.Tests", "P23.MetaTrader4.Manager.Core.Tests\P23.MetaTrader4.Manager.Core.Tests.csproj", "{EBE59B05-E9A6-4ABF-9F50-EFD0D146F8B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
 		Debug|Win32 = Debug|Win32
+		Release|Any CPU = Release|Any CPU
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4FB30E8D-10BB-46BA-9AFE-DF840256ED03}.Debug|Any CPU.ActiveCfg = Debug|Win32
 		{4FB30E8D-10BB-46BA-9AFE-DF840256ED03}.Debug|Win32.ActiveCfg = Debug|Win32
 		{4FB30E8D-10BB-46BA-9AFE-DF840256ED03}.Debug|Win32.Build.0 = Debug|Win32
+		{4FB30E8D-10BB-46BA-9AFE-DF840256ED03}.Release|Any CPU.ActiveCfg = Release|Win32
 		{4FB30E8D-10BB-46BA-9AFE-DF840256ED03}.Release|Win32.ActiveCfg = Release|Win32
 		{4FB30E8D-10BB-46BA-9AFE-DF840256ED03}.Release|Win32.Build.0 = Release|Win32
+		{79770E69-B697-4B93-855B-A48D41D7FFD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79770E69-B697-4B93-855B-A48D41D7FFD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79770E69-B697-4B93-855B-A48D41D7FFD1}.Debug|Win32.ActiveCfg = Debug|Any CPU
 		{79770E69-B697-4B93-855B-A48D41D7FFD1}.Debug|Win32.Build.0 = Debug|Any CPU
+		{79770E69-B697-4B93-855B-A48D41D7FFD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79770E69-B697-4B93-855B-A48D41D7FFD1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{79770E69-B697-4B93-855B-A48D41D7FFD1}.Release|Win32.ActiveCfg = Release|Any CPU
 		{79770E69-B697-4B93-855B-A48D41D7FFD1}.Release|Win32.Build.0 = Release|Any CPU
+		{16BBDE1A-6A2A-431A-B1D5-E3109CFD14C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16BBDE1A-6A2A-431A-B1D5-E3109CFD14C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16BBDE1A-6A2A-431A-B1D5-E3109CFD14C5}.Debug|Win32.ActiveCfg = Debug|x86
 		{16BBDE1A-6A2A-431A-B1D5-E3109CFD14C5}.Debug|Win32.Build.0 = Debug|x86
+		{16BBDE1A-6A2A-431A-B1D5-E3109CFD14C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16BBDE1A-6A2A-431A-B1D5-E3109CFD14C5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{16BBDE1A-6A2A-431A-B1D5-E3109CFD14C5}.Release|Win32.ActiveCfg = Release|x86
 		{16BBDE1A-6A2A-431A-B1D5-E3109CFD14C5}.Release|Win32.Build.0 = Release|x86
+		{BB86CBE6-3CF1-4462-8370-6899C4B9909D}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{BB86CBE6-3CF1-4462-8370-6899C4B9909D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BB86CBE6-3CF1-4462-8370-6899C4B9909D}.Debug|Win32.Build.0 = Debug|Win32
+		{BB86CBE6-3CF1-4462-8370-6899C4B9909D}.Release|Any CPU.ActiveCfg = Release|Win32
+		{BB86CBE6-3CF1-4462-8370-6899C4B9909D}.Release|Win32.ActiveCfg = Release|Win32
+		{BB86CBE6-3CF1-4462-8370-6899C4B9909D}.Release|Win32.Build.0 = Release|Win32
+		{0440845F-A6FB-4E0C-8783-F28942F2F924}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0440845F-A6FB-4E0C-8783-F28942F2F924}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0440845F-A6FB-4E0C-8783-F28942F2F924}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{0440845F-A6FB-4E0C-8783-F28942F2F924}.Debug|Win32.Build.0 = Debug|Any CPU
+		{0440845F-A6FB-4E0C-8783-F28942F2F924}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0440845F-A6FB-4E0C-8783-F28942F2F924}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0440845F-A6FB-4E0C-8783-F28942F2F924}.Release|Win32.ActiveCfg = Release|Any CPU
+		{0440845F-A6FB-4E0C-8783-F28942F2F924}.Release|Win32.Build.0 = Release|Any CPU
+		{EBE59B05-E9A6-4ABF-9F50-EFD0D146F8B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBE59B05-E9A6-4ABF-9F50-EFD0D146F8B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBE59B05-E9A6-4ABF-9F50-EFD0D146F8B6}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{EBE59B05-E9A6-4ABF-9F50-EFD0D146F8B6}.Debug|Win32.Build.0 = Debug|Any CPU
+		{EBE59B05-E9A6-4ABF-9F50-EFD0D146F8B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBE59B05-E9A6-4ABF-9F50-EFD0D146F8B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBE59B05-E9A6-4ABF-9F50-EFD0D146F8B6}.Release|Win32.ActiveCfg = Release|Any CPU
+		{EBE59B05-E9A6-4ABF-9F50-EFD0D146F8B6}.Release|Win32.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {857D0A21-8FA4-47C9-8584-DC79A6BBEF83}
 	EndGlobalSection
 EndGlobal
