@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>P23.MetaTrader4.Manager.ClrWrapper.Core</id>
+        <version>$Version$</version>
+        <description>
+          MT4 Manager wrapper
+        </description>
+        <authors>Hengzhe Li</authors>
+        <dependencies>
+            <group targetFramework="netcoreapp3.1">
+                <dependency id="P23.MetaTrader4.Manager.Contracts.Core" version="1.0.0"/>
+            </group>
+        </dependencies>
+    </metadata>
+    
+    <files>
+        <file src="../P23.MetaTrader4.Manager.ClrWrapper.Core/bin/Release/P23.MetaTrader4.Manager.ClrWrapper.Core.dll" target="lib/netcoreapp3.1" />
+    </files>
+</package>
