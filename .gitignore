@@ -20,3 +20,4 @@ credentials.config
 [Aa]pp.config
 **/mtmanapi.dll
 **/mtmanapi64.dll
+appsettings.json
